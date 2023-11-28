@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Table</title>
+<style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e7eff6;
+      margin: 0;
+      padding: 20px;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ced4da;
+      text-align: center;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+    td {
+      background-color: #f8f9fa;
+    }
+    .spanned-cell {
+      background-color: #6c757d;
+      color: white;
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
+      font-size: 2.5rem;
+    }
+    .day {
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    nav li {
+      float: left;
+    }
+
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav li a:hover {
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="table.html">Time Table</a></li>
+    <li><a href="Form.html">Registration Form</a></li>
+    <li><a href="image_table.html">Image Table</a></li>
+  </ul>
+</nav>
+      
+<h1 class="heading">TIME TABLE</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Day/Period</th>
+      <th>I<br>9:30-10:20</th>
+      <th>II<br>10:20-11:10</th>
+      <th>III<br>12:00-12:40</th>
+      <th>IV<br>12:00-12:40</th>
+      <th>V<br>12:40-1:30</th>
+      <th>VI<br>1:30-2:20</th>
+      <th>VII<br>3:10-4:00</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Monday</td>
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Che</td>
+      <td rowspan="5">LUNCH</td>
+      <td>LAB</td>
+      <td>LAB</td>
+      <td rowspan="2">Ply</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td rowspan="2">LAB</td>
+      <td>Eng</td>
+      <td>Che</td>
+      <td>Che</td>
+      <td>Mat</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Mat</td>
+      <td>Phy</td>
+      <td>Eng</td>
+      <td>Che</td>
+      <td rowspan="3">SPORTS</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Phy</td>
+      <td>Eng</td>
+      <td>Che</td>
+      <td>LAB</td>
+      <td>Mat</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Phy</td>
+      <td>Eng</td>
+      <td>Che</td>
+      <td>LAB</td>
+      <td>Mat</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
